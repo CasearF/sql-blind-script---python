@@ -11,3 +11,9 @@
 6. Checked each found result; if the text was not equal to the error message and contained a specified hint, then the query string was written into a file named "example.txt", and the current loop was stopped.
 
 7. Since in actual testing, testing the payload would return a 404 response, but it does not affect the page return, there was no need to set a check for the response code.
+
+:::info{title=“Related info”}
+The new version creates a ProcessPoolExecutor using `concurrent.futures.ProcessPoolExecutor(max_workers=max_processes) as executor ` to set the maximum number of working processes to `max _processes
+
+to speed up the test
+:::
