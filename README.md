@@ -12,8 +12,8 @@
 
 7. Since in actual testing, testing the payload would return a 404 response, but it does not affect the page return, there was no need to set a check for the response code.
 
-:::info{title=“Related info”}
+
 The new version creates a ProcessPoolExecutor using `concurrent.futures.ProcessPoolExecutor(max_workers=max_processes) as executor ` to set the maximum number of working processes to `max _processes
 
 to speed up the test
-:::
+
